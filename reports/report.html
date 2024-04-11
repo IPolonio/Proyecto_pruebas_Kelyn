@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .process {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            background-color: green;
+            margin: 0 auto;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .checkmark {
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .checkmark::before {
+            content: "";
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Reporte</h1>
+        <p>A continuaci�n se muestran los resultados del informe:</p>
+        <div class="process">
+            <h2>Login en la plataforma de cursos</h2>
+            <div class="logo">
+                <div class="checkmark"></div>
+            </div>
+            <p>Completado correctamente</p>
+        </div>
+        <div class="process">
+            <h2>Acceso al workspace</h2>
+            <div class="logo">
+                <div class="checkmark"></div>
+            </div>
+            <p>Completado correctamente</p>
+        </div>
+        <div class="process">
+            <h2>Vista y selecion de los cursos</h2>
+            <div class="logo">
+                <div class="checkmark"></div>
+            </div>
+            <p>Completado correctamente</p>
+        </div>
+        <div class="process">
+            <h2>Acceso al curso </h2>
+            <div class="logo">
+                <div class="checkmark"></div>
+            </div>
+            <p>Completado correctamente</p>
+        </div>
+        <div class="process">
+            <h2>Generacion de certificado de curso</h2>
+            <div class="logo">
+                <div class="checkmark"></div>
+            </div>
+            <p>Completado correctamente</p>
+        </div>
+    </div>
+</body>
+
+</html>
