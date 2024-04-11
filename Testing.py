@@ -7,7 +7,7 @@ from jinja2 import Environment, FileSystemLoader
 
 
 
-
+# Creacion de codigo para Selenium 
 if not os.path.exists('screenshots'):
     os.makedirs('screenshots')
 
